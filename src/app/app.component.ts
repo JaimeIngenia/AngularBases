@@ -17,6 +17,7 @@ export class AppComponent {
   // restar(){
   //   this.numero -= 1;
   // }
+  //Rama dev
 
   acumular(valor: number){
     this.numero += valor;
