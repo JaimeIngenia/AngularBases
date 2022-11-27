@@ -18,7 +18,7 @@ export class AppComponent {
   //   this.numero -= 1;
   // }
   //Rama dev
-
+//Este es el último coomiit de esta rama 01-counter
   acumular(valor: number){
     this.numero += valor;
   }
