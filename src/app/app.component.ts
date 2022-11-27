@@ -6,5 +6,19 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'bases';
+  titulo: string = 'Cinounter App Jaime';
+  numero: number = 10;
+  base: number = 5;
+
+  sunar(){
+    this.numero += 1;
+  }
+
+  // restar(){
+  //   this.numero -= 1;
+  // }
+
+  acumular(valor: number){
+    this.numero += valor;
+  }
 }
